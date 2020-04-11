@@ -1,9 +1,10 @@
-#Sensor Program and Artificial Vision with Tensorflow(CO2, Humidity, Temperature, TPOC)
+## Sensor Program and Artificial Vision with Tensorflow(CO2, Humidity, Temperature, TPOC)
 
-##Some data will be recolected from diferents environments using environmental sensors to check some variables as CO2, humidity, temperature, pH, ultraviolet like some other gases.<br>
+### Some data will be recolected from diferents environments using environmental sensors to check some variables as CO2, humidity, temperature, pH, ultraviolet like some other gases.<br>
 
-**Note:
-_Dataset for Entrenate Model could be downloaded of this repository (link drive dataset folder)_
+**Note:**
+
+*_Dataset for Entrenate Model could be downloaded of this repository https://drive.google.com/drive/folders/1ISauTzslU2SmAfkqp_hcklumDV5piaXu?usp=sharing_*
 
 Python Libraries needed:<br>
 ```
