@@ -1,4 +1,4 @@
-## Fix it problem int the future:
+## Fix it problem in the future:
 * Overtrain Net
 * Analyze value of Ultraviolet
 
