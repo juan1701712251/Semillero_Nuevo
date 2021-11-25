@@ -18,3 +18,4 @@ pip install -r requirements.txt
 Requirements:<br>
 -Put the serial port you will use in the in the arduinoPort variable inside the conectarArduino procedure, by this way the data will be read from the avaible port from your computer.<br>
 -Serial port needs to be free to make sure that data will be write correctly.
+-Mongo DataBase need to be install into client system.
