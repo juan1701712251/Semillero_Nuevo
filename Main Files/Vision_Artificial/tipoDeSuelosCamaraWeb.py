@@ -13,7 +13,7 @@ import sys
 import tensorflow as tf
 
 ALTITUDE_BASE = 16
-NAME_NET_MODEL='model_train(ocho_epocas)'
+NAME_NET_MODEL='model_train(9 epocas)'
 
 def nothing(x):
     pass
@@ -24,9 +24,11 @@ from scipy.stats._multivariate import random_correlation_gen
 
 class VisionArtificial():
     def __init__(self):
-        self.ground_preserved = ['Bosque','Forest','Pasto','Pasture']
+        self.ground_preserved = ['Bosque','Forest','Pasto','Pasture','River', 'SeaLake', 'Rio', 'Mar']
+        #self.ground_preserved = ['Bosque', 'Forest', 'Pasto', 'Pasture']
         self.ground_medium = ['HerbaceousVegetation','PermanentCrop','Vegetación herbácea','Cultivo permanente']
-        self.ground_water = ['River','SeaLake','Rio','Mar']
+        #self.ground_water = ['River','SeaLake','Rio','Mar']
+        self.ground_water = []
         '''
         self.dic_clas = {0: 'AnnualCrop',
                     1: 'Forest',
@@ -166,10 +168,10 @@ class VisionArtificial():
         #Recalculate factor
         #print(height,width)
         #print("Factor_before: " + str(factor))
-        if factor > height/size_image_to_net:
-            factor = math.floor(height/size_image_to_net)
-        if factor > width/size_image_to_net:
-            factor = math.floor(width/size_image_to_net)
+        #if factor > height/size_image_to_net:
+        #    factor = math.floor(height/size_image_to_net)
+        #if factor > width/size_image_to_net:
+        #    factor = math.floor(width/size_image_to_net)
         #print("Factor_after: " + str(factor))
 
         #Size each image
